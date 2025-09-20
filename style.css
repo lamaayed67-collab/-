@@ -7,7 +7,7 @@ obal Styles */
 }
 
 body {
-    background-color: #d9e2b6; /* زيتي فاتح */
+    background-color: #d9e2b6;
     color: #333;
     line-height: 1.6;
 }
@@ -21,7 +21,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #1e3d2f; /* زيتي غامق شوية */
+    background-color: #1e3d2f; 
     color: white;
     text-align: center;
     padding: 50px 0;
@@ -31,13 +31,13 @@ header {
 }
 
 header h1 {
-    font-size: 3.5rem; /* تكبير العنوان */
+    font-size: 3.5rem; 
     margin-bottom: 10px;
     letter-spacing: 2px;
     font-weight: bold;
 }
 
-/* Content Sections */
+
 .section {
     background-color: white;
     padding: 30px;
@@ -47,10 +47,10 @@ header h1 {
 }
 
 .section h2 {
-    color: #1e3d2f; /* نفس لون الهيدر */
+    color: #1e3d2f;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 3px solid #8fbf60; /* لمسة من الزيتى الفاتح */
+    border-bottom: 3px solid #8fbf60; 
     font-size: 1.8rem;
 }
 
@@ -99,7 +99,7 @@ header h1 {
     font-size: 1rem;
 }
 
-/* Footer */
+
 footer {
     background-color: #1e3d2f;
     color: white;
@@ -110,7 +110,7 @@ footer {
     font-size: 1.1rem;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .container {
         width: 95%;
@@ -127,4 +127,5 @@ footer {
     .image-item {
         width: 100%;
     }
+
 }
